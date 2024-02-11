@@ -24,6 +24,6 @@ def heap_sort(arr):
         heapify(arr, i, 0)
 
 
-arr = [int(item) for item in input("Enter your arrayy: ").split()]
+arr = [int(item) for item in input("Enter your array: ").split()]
 heap_sort(arr)
 print(arr)
